@@ -79,4 +79,20 @@ background-color:red;
   }
 }
 ```
+## var: cria uma váriavel para guardar uma configuração css
+## sintaxe básica
+```css
+:root{
+--meuvalor: ; /*aqui vai o valor */
+}
+```
+## aplicando
+```css
+:root{
+--cor:red; /*a cor vai ser vermelha */
+}
+h1{
+color:var(--cor); /* a cor vai sair vermelho */
+}
+```
 
