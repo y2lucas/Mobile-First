@@ -38,3 +38,45 @@ width:400px;
 object-fit:contain;
 }
 ```
+## @media: são códigos que podem alterar o css do site, dependendo de características como largura da tela
+## sintaxe básica
+```css
+@media(){
+}
+```
+## Largura da Tela: permitem que você aplique estilos específicos a um elemento HTML dependendo da largura da tela do dispositivo onde a página está sendo visualizada. usamos o min-width ou max-width.
+## min-width: define o valor mínimo que a largura da tela (viewport) deve ter para que os estilos dentro da media query sejam aplicados, Em outras palavras, se a tela for maior ou igual ao valor especificado, os estilos serão ativados
+```css
+@media(min-width:500px){
+body{
+background-color:red;
+}
+}
+```
+## max-width: define o valor máximo que a largura da tela pode ter para que os estilos sejam aplicados. Se a tela for menor ou igual ao valor especificado, os estilos serão ativados
+```css
+@media(max-width:500px){
+body{
+background-color:red;
+}
+}
+```
+## Orientação: Essas condições dentro das @media em CSS permitem que você aplique estilos específicos dependendo da orientação da tela do dispositivo.
+## (orientation: landscape): Aplica os estilos quando a tela estiver na orientação paisagem (mais larga que alta)
+## (orientation: portrait): Aplica os estilos quando a tela estiver na orientação retrato (mais alta que larga)
+```css
+@media (orientation: landscape) {
+  /* Estilos para orientação paisagem */
+  .image {
+    width: 100%; /* A imagem ocupará toda a largura da tela */
+  }
+}
+
+@media (orientation: portrait) {
+  /* Estilos para orientação retrato */
+  .image {
+    max-width: 500px; /* Limita a largura máxima da imagem */
+  }
+}
+```
+
