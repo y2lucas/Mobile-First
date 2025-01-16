@@ -35,7 +35,7 @@ object-fit:contain;
 img{
 height:400px;
 width:400px;
-object-fit:contain;
+object-fit:cover;
 }
 ```
 ## @media: são códigos que podem alterar o css do site, dependendo de características como largura da tela
