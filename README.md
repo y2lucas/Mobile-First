@@ -104,3 +104,10 @@ color:var(--cor); /* a cor vai sair vermelho */
 }
 }
 ```
+## calc(): uma função que pode fazer Cálculos que envolvam a altura e a largura de determinado item da aplicação.
+```css
+.container {
+  width: calc(100% - 20px);
+}
+```
+
