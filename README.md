@@ -95,4 +95,12 @@ h1{
 color:var(--cor); /* a cor vai sair vermelho */
 }
 ```
-
+## var no @media
+## podemos criar dentro do média
+```css
+@media(min-width:450px){
+:root{
+--font:15px; /*enquanto a tela for menor ou igual a 450px, vai ter 15px as fontes qe recebe essa váriavel*/
+}
+}
+```
