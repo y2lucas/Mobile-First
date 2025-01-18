@@ -45,7 +45,7 @@ object-fit:cover;
 }
 ```
 ## Largura da Tela: permitem que você aplique estilos específicos a um elemento HTML dependendo da largura da tela do dispositivo onde a página está sendo visualizada. usamos o min-width ou max-width.
-## min-width: define o valor mínimo que a largura da tela (viewport) deve ter para que os estilos dentro da media query sejam aplicados, Em outras palavras, se a tela for maior ou igual ao valor especificado, os estilos serão ativados
+## min-width: se a tela for maior ou igual a o valor especifico, os estilos seram ativos
 ```css
 @media(min-width:500px){
 body{
@@ -53,7 +53,7 @@ background-color:red;
 }
 }
 ```
-## max-width: define o valor máximo que a largura da tela pode ter para que os estilos sejam aplicados. Se a tela for menor ou igual ao valor especificado, os estilos serão ativados
+## max-width: Se a tela for menor ou igual ao valor especificado, os estilos serão ativados
 ```css
 @media(max-width:500px){
 body{
